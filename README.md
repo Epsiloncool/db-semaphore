@@ -57,6 +57,10 @@ echo 'This task is completed';
 
 ## Change log
 
+### v1.0.2
+
+- detailed documentation
+
 ### v1.0.1
 
 - added Check() method
