@@ -2,6 +2,11 @@
 
 A short and effective semaphore implementation in pure PHP
 
+This library could be used if you want to manage one piece of the PHP code which have to be run only once.
+
+The great place where it could be used is a cronjob script. While cron job will be runned periodically by the OS, 
+we should not run the script if it's still executing from the previous run. Semaphore will help in this situation.
+
 ## Installation
 
 Install the latest version with
