@@ -1,0 +1,27 @@
+{
+	"name": "epsiloncool/db-semaphore",
+	"type": "library",
+	"version": "1.0.1",
+	"description": "A short and effective semaphore implementation in pure PHP",
+    "homepage": "https://github.com/Epsiloncool/db-semaphore",
+    "license": "MIT",
+    "keywords": ["semaphore","cron","mysqli","multithreading","php","database"],
+    "require": {
+		"php": ">=5.3.0",
+		"ext-mysqli": "*"
+    },
+	"autoload": {
+	  "files": ["src/dbsemaphore.class.php"]
+	},
+    "authors": [
+        {
+            "name": "Alexey Epsilon",
+            "email": "epsiloncool@gmail.com",
+            "homepage": "https://e-wm.org",
+            "role": "Developer"
+        }
+    ],
+  	"support": {
+		"email": "epsiloncool@gmail.com"
+  	}
+}
